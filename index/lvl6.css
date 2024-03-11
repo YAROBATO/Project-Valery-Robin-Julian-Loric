@@ -1,0 +1,168 @@
+body {
+    color:black;
+    background-color: #6d94d4;
+    overflow: hidden; 
+}
+
+#start {
+    position: absolute;
+    width: 700px;
+    height: 300px;
+    cursor: pointer;
+    display: flex;
+    top: 30%;
+    left: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(45, 45, 45);
+    border-radius: 30px;
+    color: white;
+    font-size: 80px;
+    font-family: Lucida Sans Typewriter;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+}
+
+#wrong {
+    left: 50%;
+    top: 30%;
+    position: absolute;
+    width: 700px;
+    height: 300px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(211, 73, 73);
+    border-radius: 20px;
+    color: white;
+    font-size: 80px;
+    font-weight: 100;
+    font-family: Lucida Sans Typewriter;
+    transform: translateX(-50%);
+    
+}
+
+
+
+#target {
+    left: 50%;
+    top: 32%;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(45, 45, 45);
+    border-radius: 20px;
+    color: white;
+    font-size: 120px;
+    font-family: 'Lucida Sans Typewriter';
+    transform: translateX(-50%);
+    font-weight: lighter;
+  
+}
+
+#Knopf {
+    cursor: pointer;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 200px;
+    height: auto;
+}
+
+#answer {
+    
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 1000px;
+    transform: translateX(-50%);
+    height: 100px;
+    font-size: 60px;
+    border-radius: 30px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-color: white;
+    font-family: Lucida Sans Typewriter;
+}
+
+
+#lvl {
+
+    position: fixed;
+    font-family: Lucida Sans Typewriter;
+    font-weight: bold;
+    font-size: 50pt;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    border: 5px solid #000000;
+    border-radius: 25px;
+}
+
+#startButton{
+    font-family:  "Lucida Sans Typewriter";
+    color: #ffffff;
+    background-color: #000000;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.intro-container {
+    z-index: 9997;
+    font-family:  "Lucida Sans Typewriter";
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 35%;
+    background-color: #ffffff;
+    border: 15px solid #ffffff;
+    border-radius: 25px;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+#outro-container {
+    z-index: 9999;
+    font-family:  "Lucida Sans Typewriter";
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 35%;
+    background-color: #ffffff;
+    border: 15px solid #ffffff;
+    border-radius: 25px;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+  }
+
+#introList{
+    text-align:left;
+}
+
+.text {
+    position: relative;
+    left: 10%;
+    top: 0%;
+    font-size: 30px;
+    font-family: "Lucida Sans Typewriter";
+    text-align: justify;
+    line-height: 200%;
+    width: 800px;
+    font-weight: 400;
+
+}
+
+#round{
+    position: absolute;
+    color: #555555;
+    right: 5%;
+    bottom: 0;
+    font-family: "Lucida Sans Typewriter";
+    font-size: 20px;
+    overflow: hidden;
+}

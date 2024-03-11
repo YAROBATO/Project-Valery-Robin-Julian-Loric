@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    background-color: #6d94d4;  
+    overflow: hidden;
+}
+
+#outro-container {
+    z-index: 9999;
+    font-family:  "Lucida Sans Typewriter";
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 35%;
+    background-color: #ffffff;
+    border: 15px solid #ffffff;
+    border-radius: 25px;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+  }
+
+.intro-container {
+    z-index: 9997;
+    font-family:  "Lucida Sans Typewriter";
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 35%;
+    background-color: #ffffff;
+    border: 15px solid #ffffff;
+    border-radius: 25px;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+  }
+
+  #introList{
+    text-align:left;
+}
+  
+  .game-container {
+    text-align: center;
+  }
+
+#startButton{
+    font-family:  "Lucida Sans Typewriter";
+    color: #ffffff;
+    background-color: #000000;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+#logo {
+    cursor: pointer;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 200px;
+    height: auto;
+}
+
+
+#lvl{
+    position: fixed;
+    font-family: "Lucida Sans Typewriter";
+    font-size: 50pt;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    border: 5px solid #000000;
+    border-radius: 25px;
+}
+
+.matrix{
+    position: absolute;  
+    display: grid;
+    top: 28%;
+    left: 50%;
+    transform: translateX(-50%);
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;
+}
+.round-button {
+    display:block;
+    width:80px;
+    height:80px;
+    border: none;
+    border-radius: 50%;
+    background: #000000;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+
+}
+
+#round{
+    position: absolute;
+    color: #555555;
+    right: 5%;
+    bottom: 0;
+    font-family: "Lucida Sans Typewriter";
+    font-size: 20px;
+    overflow: hidden;
+}
+

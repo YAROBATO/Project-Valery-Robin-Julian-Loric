@@ -1,0 +1,143 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This ensures the body takes the full height of the viewport */
+    margin: 0; /* Remove default body margin */
+    color: #000000;
+    background-color: #6d94d4;
+    overflow: hidden;
+}
+#logo {
+    cursor: pointer;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 200px;
+    height: auto;
+}
+
+#lvl{
+    position: fixed;
+    font-family: "Lucida Sans Typewriter";
+    font-size: 50pt;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    border: 5px solid #000000;
+    border-radius: 25px;
+}
+
+#background {
+    position: relative;
+    background-color: white;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 20px;
+  }
+  
+  #background img {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  #outro-container {
+    z-index: 9999;
+    font-family:  "Lucida Sans Typewriter";
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 38%;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 25px;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+  }
+
+.intro-container {
+    z-index: 9997;
+    font-family:  "Lucida Sans Typewriter";
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 35%;
+    background-color: #ffffff;
+    border: 15px solid #ffffff;
+    border-radius: 25px;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+  }
+
+  #introList{
+    text-align:left;
+}
+
+  #startButton{
+    font-family:  "Lucida Sans Typewriter";
+    color: #ffffff;
+    background-color: #000000;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#retry{
+  position: fixed;
+  top: 5%;
+  right: 5%;
+  width: 70px;
+  cursor: pointer;
+}
+  #round{
+    position: absolute;
+    color: #555555;
+    right: 5%;
+    bottom: 0;
+    font-family: "Lucida Sans Typewriter";
+    font-size: 20px;
+    overflow: hidden;
+}
+#countdown-container{
+  position: absolute;
+  font-family: "Lucida Sans Typewriter";
+  color: #555555;
+  font-size: 30px;
+  bottom: 5%;
+  left: 2%;
+}
+
+#countdown{
+  width: 200px; 
+  height: 30px;
+  background-color: black;
+}
+
+#progress-bar {
+  height: 100%;
+  width: 100%;
+  background-color: #555555;
+  transition: width 1s linear;
+}
+
+#input{
+  font-size: 30px;
+  font-family: "Lucida Sans Typewriter";
+  border:  2px solid black;
+  border-radius: 5px;
+}
+
+#checkmark{
+  z-index: 99;
+  position: fixed;
+  top: 38%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#cross{
+  z-index: 99;
+  position: fixed;
+  top: 38%;
+  left: 50%;
+  transform: translateX(-50%);
+}

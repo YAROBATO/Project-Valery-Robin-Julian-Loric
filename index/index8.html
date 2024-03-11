@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Level8</title>
+        <link rel="stylesheet" href="lvl8.css">
+
+    </head>
+
+    <body>
+        <div class="intro-container">
+            <h1>Level 8</h1>
+            <ol id="introList">
+                <li>Guess letters to uncover the word.<br></li>
+                <li>Each wrong guess brings you closer to losing.<br></li>
+              </ol>
+            <button id="startButton">Start</button>
+        </div>
+        <div id="outro-container">
+            <h1>Level 8</h1>
+            <p>Congratulations, you've completed level 8!</p>
+            <p>Press the logo to return to the menu</p>
+        </div>
+        <div id="retry-container">
+            <h1>Game Over</h1>
+            <p>Please try again</p>
+            <img id="retryImg" src="img8/retry.png" onclick="retry()">
+        </div>
+        <a href="index.html">
+            <img id="logo" src="img8/logo.png">
+            </div>
+        </a>
+        <div id="hangman">
+            <img class="hangPic" id="firstPic" src="img8/0wrong.png">
+        </div>
+        <h1 id="lvl">
+                Level 8
+        </h1>
+        <div id="word-matrix"></div>
+        <div id="wrong-Letters">
+            <h2>wrong letters</h2>
+        </div>
+        <div class="switch">
+            <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
+            <label for="language-toggle"></label>
+            <span class="on">EN</span>
+            <span class="off">DE</span>
+            </div>
+        <script src="lvl8.js"></script>
+    </body>
+</html>

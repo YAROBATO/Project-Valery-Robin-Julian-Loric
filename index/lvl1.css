@@ -1,0 +1,100 @@
+body {
+    overflow: hidden;
+    background-color: #6d94d4;
+}
+
+
+.point{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+}
+
+.startingPoint{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+}
+
+#scoreboard{
+    position: fixed;
+    color: #555555;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2%;
+    font-family: "Lucida Sans Typewriter";
+    font-size: 30pt;
+    overflow: hidden;
+    
+}
+
+#lvl{
+    position: fixed;
+    font-family: "Lucida Sans Typewriter";
+    font-size: 50pt;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    border: 5px solid #000000;
+    border-radius: 25px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: crosshair;
+}
+#logo {
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    left: 2%;
+    width: 200px;
+    height: 150px;
+}
+#outro-container {
+    z-index: 9999;
+    font-family:  "Lucida Sans Typewriter";
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 35%;
+    background-color: #ffffff;
+    border: 15px solid #ffffff;
+    border-radius: 25px;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    cursor: default;
+  }
+
+  .intro-container {
+    z-index: 9997;
+    font-family:  "Lucida Sans Typewriter";
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 35%;
+    background-color: #ffffff;
+    border: 15px solid #ffffff;
+    border-radius: 25px;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    cursor: default;
+  }
+
+  #introList{
+    text-align:left;
+}
+
+#startButton{
+    font-family:  "Lucida Sans Typewriter";
+    color: #ffffff;
+    background-color: #000000;
+    cursor: pointer;
+    border-radius: 4px;
+}

@@ -1,0 +1,176 @@
+body{
+    color:#000000;
+    background-color: #6d94d4;
+    overflow: hidden;
+}
+
+
+#lvl {
+
+    position: fixed;
+    font-family: Lucida Sans Typewriter;
+    font-weight: bold;
+    font-size: 50pt;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    border: 5px solid #000000;
+    border-radius: 25px;
+}
+
+#startButton{
+    font-family:  "Lucida Sans Typewriter";
+    color: #ffffff;
+    background-color: #000000;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.text {
+    position: relative;
+    left: 10%;
+    top: 0%;
+    font-size: 30px;
+    font-family: "Lucida Sans Typewriter";
+    text-align: justify;
+    line-height: 200%;
+    width: 800px;
+    font-weight: 400;
+
+}
+
+
+.intro-container {
+    z-index: 9997;
+    font-family:  "Lucida Sans Typewriter";
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 33%;
+    background-color: #ffffff;
+    border: 15px solid #ffffff;
+    border-radius: 25px;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+#introList{
+    text-align:left;
+}
+
+
+
+#targetElement {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%);
+    color: white;
+    height: 300px;
+    width: 700px;
+    cursor: pointer;
+    background-color: rgb(45, 45, 45);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+#Best {
+    position: absolute;
+    left: 50%;
+    top: 72%;
+    transform: translateX(-50%);
+    font-family: Lucida Sans Typewriter;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+
+
+#r_to_reset {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translateX(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+#Score {
+    position: absolute;
+    left: 76%;
+    top: 5%;
+    justify-content: center;
+    color: #fff;
+    align-items: top;
+    display: none;
+    background-color: rgb(45, 45, 45);
+    border-radius: 20px;
+    font-size: 40px;
+    font-family: Lucida Sans Typewriter;
+    font-weight: bold;
+    height: 670px;
+    width: 330px;
+    padding-top: 1%;
+
+}
+#Resetall {
+    position: absolute;
+    left: 86.6%;
+    transform: translateX(-50%);
+    top: 90%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    align-items: top;
+    display: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: Lucida Sans Typewriter;
+    font-weight: bold;
+
+
+
+
+
+
+}
+
+#List {
+    font-size: 25px;
+    height: 900px;
+    width: 400px;
+    padding-top: 4%;
+    font-family: Lucida Sans Typewriter;
+    display: flex;
+    left: 77%;
+    top: 5%;
+    position: absolute;
+    color: #fff;
+}
+
+
+#Knopf {
+    cursor: pointer;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 200px;
+    height: auto;
+}

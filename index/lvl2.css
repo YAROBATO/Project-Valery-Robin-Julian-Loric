@@ -1,0 +1,187 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 100;
+  top: 100;
+  font-size: 100%;
+  background-color: #6d94d4;
+  
+}
+#lvl{
+  position: fixed;
+  font-family: "Lucida Sans Typewriter";
+  font-size: 50pt;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 3%;
+  border: 5px solid #000000;
+  border-radius: 25px;
+}
+#logo {
+  cursor: pointer;
+  position: fixed;
+  bottom: 0;
+  left: 2%;
+  width: 200px;
+  height: 150px;
+}
+.div {
+    border: 2px dotted rgb(0, 0, 0);
+    background-color: #6d94d4;
+    text-align: center;
+    display: inline; 
+    position: absolute;
+    height: 85%;
+    width: 60%;
+    left: 20%; 
+    top: 7.5%;
+    font-size: calc(3vw + 3vh);
+    font-family: "Lucida Sans Typewriter";
+    border-radius: 10px;
+    cursor: crosshair
+}
+.time {
+    border: 2px solid rgb(0, 0, 0);
+    background-color:  #6d94d4;
+    text-align: center;
+    display: inline; 
+    position: absolute;
+    height: 5%;
+    width: 15%;
+    left: 64%;
+    top: 85%;
+    font-size: calc(1.2vw + 1.2vh);
+    font-family: "Lucida Sans Typewriter";
+    border-radius: 10px;
+    user-select: none
+}
+.score {
+    border: 2px solid rgb(0, 0, 0);
+    background-color:  #6d94d4;
+    text-align: center;
+    display: inline; 
+    position: absolute;
+    height: 5%;
+    width: 15%;
+    left: 21%;
+    top: 85%;
+    font-size: calc(1.2vw + 1.2vh);
+    font-family: "Lucida Sans Typewriter";
+    border-radius: 10px;
+    user-select: none
+}
+.button1 {
+    background-color: white; /* Green */
+    border: 2px;
+    top: 5%;
+    left: 5%;
+    width: 9%;
+    height: 6.5%;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: calc(1vw + 1vh);
+    font-family: "Lucida Sans Typewriter";
+  }
+
+  .button2 {
+    background-color: white; /* Green */
+    border: 2px;
+    border-color: black;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    width: 20%;
+    height: 12.5%;
+    border-radius: 5px;
+    font-size: calc(2vw + 2vh);
+    font-family: "Lucida Sans Typewriter";
+    user-select: none;
+    cursor: pointer;
+  }
+  .restart {
+    background-color: #b10101; /* Green */
+    border: 2px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    width: 20%;
+    height: 12.5%;
+    font-family: "Lucida Sans Typewriter";
+    font-size: calc(2vw + 2vh);
+    border-radius: 5px;
+    user-select: none;
+    cursor: pointer;
+  }
+
+.tile {
+    border: 0px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    font-size: 200%;
+    border-radius: 5px;
+    font-style: italic;
+    background-color: black;
+    cursor: crosshair;
+    background-image:url('Target.png')
+    
+}
+
+.endScreen {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width: 30%;
+    height: auto;
+    font-size: 14pt;
+    font-family: "Lucida Sans Typewriter";
+    background-color: #ffffff;
+    border: 15px solid #ffffff;
+    border-radius: 25px;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    user-select: none
+}
+
+.LevelInfo {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 35%;
+    width: 30%;
+    height: auto;
+    font-size: 14pt;
+    font-family: "Lucida Sans Typewriter";
+    background-color: #ffffff;
+    border: 15px solid #ffffff;
+    border-radius: 25px;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    user-select: none
+}
+#introList{
+  text-align:left;
+}
+
